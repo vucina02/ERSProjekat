@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{66BCEDB5-EAE8-4897-8B0C-A0B4F93DBEE9}</ProjectGuid>
+    <ProjectGuid>{310A8EBD-5141-487B-A285-58686777944E}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Baza</RootNamespace>
     <AssemblyName>Baza</AssemblyName>
@@ -35,6 +35,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.ServiceModel" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -44,16 +45,21 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BazaImpl.cs" />
+    <Compile Include="BazaServis.cs" />
     <Compile Include="ConnectionImpl.cs" />
     <Compile Include="IBaza.cs" />
-    <Compile Include="Iconnection.cs" />
-    <Compile Include="Model\Device.cs" />
-    <Compile Include="Model\Regulator.cs" />
+    <Compile Include="IConnection.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Common1\Common1.csproj">
+      <Project>{B4E39522-738E-402D-893D-F6893777E887}</Project>
+      <Name>Common1</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

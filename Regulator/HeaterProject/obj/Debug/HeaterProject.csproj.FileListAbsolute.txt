@@ -1,0 +1,10 @@
+C:\Users\10\Desktop\PROJEKAT RESENJE\Regulator\HeaterProject\obj\Debug\HeaterProject.csproj.AssemblyReference.cache
+C:\Users\10\Desktop\PROJEKAT RESENJE\Regulator\HeaterProject\obj\Debug\HeaterProject.csproj.CoreCompileInputs.cache
+C:\Users\10\Desktop\PROJEKAT RESENJE\Regulator\HeaterProject\bin\Debug\HeaterProject.exe.config
+C:\Users\10\Desktop\PROJEKAT RESENJE\Regulator\HeaterProject\bin\Debug\HeaterProject.exe
+C:\Users\10\Desktop\PROJEKAT RESENJE\Regulator\HeaterProject\bin\Debug\HeaterProject.pdb
+C:\Users\10\Desktop\PROJEKAT RESENJE\Regulator\HeaterProject\bin\Debug\Common1.dll
+C:\Users\10\Desktop\PROJEKAT RESENJE\Regulator\HeaterProject\bin\Debug\Common1.pdb
+C:\Users\10\Desktop\PROJEKAT RESENJE\Regulator\HeaterProject\obj\Debug\HeaterProject.csproj.CopyComplete
+C:\Users\10\Desktop\PROJEKAT RESENJE\Regulator\HeaterProject\obj\Debug\HeaterProject.exe
+C:\Users\10\Desktop\PROJEKAT RESENJE\Regulator\HeaterProject\obj\Debug\HeaterProject.pdb

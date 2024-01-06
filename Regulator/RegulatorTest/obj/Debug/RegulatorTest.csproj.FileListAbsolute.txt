@@ -1,0 +1,7 @@
+C:\Users\10\Desktop\PROJEKAT RESENJE\Regulator\RegulatorTest\bin\Debug\RegulatorTest.exe.config
+C:\Users\10\Desktop\PROJEKAT RESENJE\Regulator\RegulatorTest\bin\Debug\RegulatorTest.exe
+C:\Users\10\Desktop\PROJEKAT RESENJE\Regulator\RegulatorTest\bin\Debug\RegulatorTest.pdb
+C:\Users\10\Desktop\PROJEKAT RESENJE\Regulator\RegulatorTest\obj\Debug\RegulatorTest.csproj.AssemblyReference.cache
+C:\Users\10\Desktop\PROJEKAT RESENJE\Regulator\RegulatorTest\obj\Debug\RegulatorTest.csproj.CoreCompileInputs.cache
+C:\Users\10\Desktop\PROJEKAT RESENJE\Regulator\RegulatorTest\obj\Debug\RegulatorTest.exe
+C:\Users\10\Desktop\PROJEKAT RESENJE\Regulator\RegulatorTest\obj\Debug\RegulatorTest.pdb

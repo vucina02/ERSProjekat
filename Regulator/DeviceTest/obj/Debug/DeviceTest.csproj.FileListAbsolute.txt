@@ -1,0 +1,7 @@
+C:\Users\10\Desktop\PROJEKAT RESENJE\Regulator\DeviceTest\bin\Debug\DeviceTest.exe.config
+C:\Users\10\Desktop\PROJEKAT RESENJE\Regulator\DeviceTest\bin\Debug\DeviceTest.exe
+C:\Users\10\Desktop\PROJEKAT RESENJE\Regulator\DeviceTest\bin\Debug\DeviceTest.pdb
+C:\Users\10\Desktop\PROJEKAT RESENJE\Regulator\DeviceTest\obj\Debug\DeviceTest.csproj.AssemblyReference.cache
+C:\Users\10\Desktop\PROJEKAT RESENJE\Regulator\DeviceTest\obj\Debug\DeviceTest.csproj.CoreCompileInputs.cache
+C:\Users\10\Desktop\PROJEKAT RESENJE\Regulator\DeviceTest\obj\Debug\DeviceTest.exe
+C:\Users\10\Desktop\PROJEKAT RESENJE\Regulator\DeviceTest\obj\Debug\DeviceTest.pdb

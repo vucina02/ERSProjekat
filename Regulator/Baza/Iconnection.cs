@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Baza
 {
-    public interface Iconnection
+    public interface IConnection
     {
     }
 }

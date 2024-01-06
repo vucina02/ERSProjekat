@@ -1,15 +1,14 @@
 ﻿using System;
-using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Baza.Model;
+using Common1.Model;
 
 namespace Baza
 {
-    public class BazaImpl : IBaza
+    public class BazaImpl:IBaza
     {
         private static SqlConnection connection = null;
         private static string connectionString;
@@ -70,27 +69,61 @@ namespace Baza
                 command.Connection = connection;
                 command.CommandText = "Delete from Device where DeviceId=@DeviceId";
 
-               
+
                 command.Parameters.AddWithValue("@DeviceId", id);
 
                 command.ExecuteNonQuery();
             }
 
         }
-        public void UpdateDevice(Device d,int id)
+        public void UpdateDevice(DeviceClass d, int id)
         {
-            using (SqlCommand command = new SqlCommand()) {
+            using (SqlCommand command = new SqlCommand())
+            {
                 command.Connection = connection;
                 command.CommandText = "Update device set VremeMerenja=@VremeMerenja,TemperaturaMerenja=@TemperaturaMerenja where DeviceId=@DeviceId";
 
                 command.Parameters.AddWithValue("@VremeMerenja", d.Vreme_merenja);
-                command.Parameters.AddWithValue("@TemperaturaMerenja",d.Temperatura_merenja);
+                command.Parameters.AddWithValue("@TemperaturaMerenja", d.Temperatura_merenja);
                 command.Parameters.AddWithValue("@DeviceId", id);
 
                 command.ExecuteNonQuery();
             }
         }
-        public  void InsertDevice(Device d)
+
+        public bool SignalZaPaljenje(int prosecnaTemp,DateTime vremeTemp,RegulatorClass r) {
+            if (vremeTemp > r.Pocetak_dnevnog && vremeTemp < r.Kraj_dnevnog)
+            {
+                if (prosecnaTemp < r.Dnevna_temperatura)
+                {
+                    return true;
+                }
+                else {
+                    return false;
+                }
+            }
+            else {
+                if (prosecnaTemp < r.Nocna_temperatura)
+                {
+                    return true;
+                }
+                else {
+                    return false;
+                }
+            }
+        }
+
+        public float GenerisanjeTemperature()
+        {
+            Random rand = new Random();
+            int minTemp = 1;
+            int maxTemp = 35;
+            float randomTemp = rand.Next(minTemp, maxTemp);
+            return randomTemp;
+        }
+
+
+        public void InsertDevice(DeviceClass d)
         {
             using (SqlCommand command = new SqlCommand())
             {
@@ -98,9 +131,9 @@ namespace Baza
                 command.Connection = connection;
                 command.CommandText = "INSERT INTO Device (VremeMerenja,TemperaturaMerenja) VALUES (@VremeMerenja,@TemperaturaMerenja)";
 
-                
+
                 command.Parameters.AddWithValue("@VremeMerenja", d.Vreme_merenja);
-                command.Parameters.AddWithValue("@TemperaturaMerenja",d.Temperatura_merenja);
+                command.Parameters.AddWithValue("@TemperaturaMerenja", d.Temperatura_merenja);
 
 
                 int result = command.ExecuteNonQuery();
@@ -118,8 +151,36 @@ namespace Baza
 
         }
 
+        public List<DeviceClass> GetDevices()
+        {
+            List<DeviceClass> devices = new List<DeviceClass>();
 
-        public void InsertRegulator(Regulator r)
+            using (SqlCommand command = new SqlCommand())
+            {
+
+                command.Connection = connection;
+                command.CommandText = "select DeviceId,TemperaturaMerenja,VremeMerenja from Device";
+
+                using (SqlDataReader reader = command.ExecuteReader())
+                {
+                    while (reader.Read())
+                    {
+                        DeviceClass d = new DeviceClass(reader.GetInt32(0), reader.GetDateTime(1), reader.GetFloat(2));
+                        devices.Add(d);
+                    }
+                }
+
+
+
+
+            }
+
+            return devices;
+        }
+
+
+
+        public void InsertRegulator(RegulatorClass r)
         {
             using (SqlCommand command = new SqlCommand())
             {
@@ -152,10 +213,5 @@ namespace Baza
 
 
         }
-
     }
 }
-    
-
-
-
