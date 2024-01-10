@@ -8,3 +8,14 @@ C:\Users\10\Desktop\PROJEKAT RESENJE\Regulator\HeaterProject\bin\Debug\Common1.p
 C:\Users\10\Desktop\PROJEKAT RESENJE\Regulator\HeaterProject\obj\Debug\HeaterProject.csproj.CopyComplete
 C:\Users\10\Desktop\PROJEKAT RESENJE\Regulator\HeaterProject\obj\Debug\HeaterProject.exe
 C:\Users\10\Desktop\PROJEKAT RESENJE\Regulator\HeaterProject\obj\Debug\HeaterProject.pdb
+C:\Users\Helena\Desktop\Regulator\HeaterProject\bin\Debug\HeaterProject.exe.config
+C:\Users\Helena\Desktop\Regulator\HeaterProject\bin\Debug\HeaterProject.exe
+C:\Users\Helena\Desktop\Regulator\HeaterProject\bin\Debug\HeaterProject.pdb
+C:\Users\Helena\Desktop\Regulator\HeaterProject\bin\Debug\Common1.dll
+C:\Users\Helena\Desktop\Regulator\HeaterProject\bin\Debug\Common1.pdb
+C:\Users\Helena\Desktop\Regulator\HeaterProject\obj\Debug\HeaterProject.csproj.AssemblyReference.cache
+C:\Users\Helena\Desktop\Regulator\HeaterProject\obj\Debug\HeaterProject.csproj.SuggestedBindingRedirects.cache
+C:\Users\Helena\Desktop\Regulator\HeaterProject\obj\Debug\HeaterProject.csproj.CoreCompileInputs.cache
+C:\Users\Helena\Desktop\Regulator\HeaterProject\obj\Debug\HeaterProject.csproj.CopyComplete
+C:\Users\Helena\Desktop\Regulator\HeaterProject\obj\Debug\HeaterProject.exe
+C:\Users\Helena\Desktop\Regulator\HeaterProject\obj\Debug\HeaterProject.pdb

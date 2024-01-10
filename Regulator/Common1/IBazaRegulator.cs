@@ -13,5 +13,13 @@ namespace Common1
     {
         [OperationContract]
         void posalji(DeviceClass d);
+
+        [OperationContract]
+
+        void UpisiHeater(HeaterClass heater);
+
+        [OperationContract]
+
+        float GetProsjek();
     }
 }

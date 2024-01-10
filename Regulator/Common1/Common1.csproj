@@ -47,6 +47,7 @@
     <Compile Include="IRegulatorDevice.cs" />
     <Compile Include="IRegulatorHeater.cs" />
     <Compile Include="Model\DeviceClass.cs" />
+    <Compile Include="Model\HeaterClass.cs" />
     <Compile Include="Model\RegulatorClass.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

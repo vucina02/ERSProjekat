@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Runtime.Remoting.Proxies;
 using System.Text;
@@ -40,16 +41,26 @@ namespace DeviceProject
         }
         public  void spavaj(int br)
         {
+
+            StreamReader sr = new StreamReader("C:\\Users\\10\\Downloads\\Regulator\\Regulator\\Regulator\\bin\\Debug\\Temperature.txt");
+            string unos= sr.ReadLine();
+            sr.Close();
+            float trenutna= float.Parse(unos);  
             Random rand = new Random(br*br*br);
-            int minTemperatura = 1;
-            int maxTemperatura = 30;
+            float minTemperatura = trenutna-1;
+            float maxTemperatura = trenutna+1;
             while(true)
             {
-
-                float temperatura = threadRandom.Value.Next(minTemperatura, maxTemperatura);
+                double randomDouble=rand.NextDouble();  
+                //float temperatura = threadRandom.Value.Next((int)minTemperatura,(int)maxTemperatura);
+                float temperatura = (float)(minTemperatura + (maxTemperatura - minTemperatura) * randomDouble);
                 Console.WriteLine(temperatura);
                 Proxy.posalji(temperatura);
-                Thread.Sleep( 1000 );
+                Thread.Sleep( 10000 );
+                StreamReader sr1 = new StreamReader("C:\\Users\\10\\Downloads\\Regulator\\Regulator\\Regulator\\bin\\Debug\\Temperature.txt");
+                unos = sr1.ReadLine();
+                sr1.Close();
+                trenutna = float.Parse(unos);
 
             }
 

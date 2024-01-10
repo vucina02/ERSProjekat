@@ -91,27 +91,7 @@ namespace Baza
             }
         }
 
-        public bool SignalZaPaljenje(int prosecnaTemp,DateTime vremeTemp,RegulatorClass r) {
-            if (vremeTemp > r.Pocetak_dnevnog && vremeTemp < r.Kraj_dnevnog)
-            {
-                if (prosecnaTemp < r.Dnevna_temperatura)
-                {
-                    return true;
-                }
-                else {
-                    return false;
-                }
-            }
-            else {
-                if (prosecnaTemp < r.Nocna_temperatura)
-                {
-                    return true;
-                }
-                else {
-                    return false;
-                }
-            }
-        }
+       
 
         public float GenerisanjeTemperature()
         {
@@ -212,6 +192,49 @@ namespace Baza
             }
 
 
+        }
+
+        public void InsertHeater(HeaterClass h)
+        {
+            using (SqlCommand command = new SqlCommand())
+            {
+
+                command.Connection = connection;
+                command.CommandText = "INSERT INTO Heater (PocetakRada,VremeRada,Resursi) VALUES (@PocetakRada,@VremeRada,@Resursi)";
+
+                command.Parameters.AddWithValue("@PocetakRada", h.Pocetak);
+                command.Parameters.AddWithValue("@VremeRada", h.Trajanje);
+                command.Parameters.AddWithValue("@Resursi", h.PotroseniResursi);
+                
+
+
+                int result = command.ExecuteNonQuery();
+
+                if (result != 0)
+                {
+                    Console.WriteLine("Uspesno ubacen u bazu");
+                }
+                else
+                {
+                    Console.WriteLine("Nismo uspeli da upisemo u bazu");
+                }
+            }
+
+
+        }
+
+        public float ProsjekTemperaturaDeviceBaza() {
+            float prosjek = 0;
+            using (SqlCommand command = new SqlCommand())
+            {
+                command.CommandText = "SELECT AVG(TemperaturaMerenja) FROM Device";
+                using (SqlDataReader reader = command.ExecuteReader()) {
+                    while (reader.Read()) { 
+                        prosjek = reader.GetFloat(0);
+                    }
+                }
+            }
+            return prosjek;
         }
     }
 }

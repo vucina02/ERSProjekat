@@ -5,3 +5,11 @@ C:\Users\10\Desktop\PROJEKAT RESENJE\Regulator\HeaterTest\obj\Debug\HeaterTest.c
 C:\Users\10\Desktop\PROJEKAT RESENJE\Regulator\HeaterTest\obj\Debug\HeaterTest.csproj.CoreCompileInputs.cache
 C:\Users\10\Desktop\PROJEKAT RESENJE\Regulator\HeaterTest\obj\Debug\HeaterTest.exe
 C:\Users\10\Desktop\PROJEKAT RESENJE\Regulator\HeaterTest\obj\Debug\HeaterTest.pdb
+C:\Users\Helena\Desktop\Regulator\HeaterTest\bin\Debug\HeaterTest.exe.config
+C:\Users\Helena\Desktop\Regulator\HeaterTest\bin\Debug\HeaterTest.exe
+C:\Users\Helena\Desktop\Regulator\HeaterTest\bin\Debug\HeaterTest.pdb
+C:\Users\Helena\Desktop\Regulator\HeaterTest\obj\Debug\HeaterTest.csproj.AssemblyReference.cache
+C:\Users\Helena\Desktop\Regulator\HeaterTest\obj\Debug\HeaterTest.csproj.SuggestedBindingRedirects.cache
+C:\Users\Helena\Desktop\Regulator\HeaterTest\obj\Debug\HeaterTest.csproj.CoreCompileInputs.cache
+C:\Users\Helena\Desktop\Regulator\HeaterTest\obj\Debug\HeaterTest.exe
+C:\Users\Helena\Desktop\Regulator\HeaterTest\obj\Debug\HeaterTest.pdb

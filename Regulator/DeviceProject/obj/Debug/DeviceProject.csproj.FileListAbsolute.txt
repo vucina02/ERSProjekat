@@ -8,3 +8,24 @@ C:\Users\10\Desktop\PROJEKAT RESENJE\Regulator\DeviceProject\obj\Debug\DevicePro
 C:\Users\10\Desktop\PROJEKAT RESENJE\Regulator\DeviceProject\obj\Debug\DeviceProject.csproj.CopyComplete
 C:\Users\10\Desktop\PROJEKAT RESENJE\Regulator\DeviceProject\obj\Debug\DeviceProject.exe
 C:\Users\10\Desktop\PROJEKAT RESENJE\Regulator\DeviceProject\obj\Debug\DeviceProject.pdb
+C:\Users\Helena\Desktop\Regulator\DeviceProject\bin\Debug\DeviceProject.exe.config
+C:\Users\Helena\Desktop\Regulator\DeviceProject\bin\Debug\DeviceProject.exe
+C:\Users\Helena\Desktop\Regulator\DeviceProject\bin\Debug\DeviceProject.pdb
+C:\Users\Helena\Desktop\Regulator\DeviceProject\bin\Debug\Common1.dll
+C:\Users\Helena\Desktop\Regulator\DeviceProject\bin\Debug\Common1.pdb
+C:\Users\Helena\Desktop\Regulator\DeviceProject\obj\Debug\DeviceProject.csproj.AssemblyReference.cache
+C:\Users\Helena\Desktop\Regulator\DeviceProject\obj\Debug\DeviceProject.csproj.SuggestedBindingRedirects.cache
+C:\Users\Helena\Desktop\Regulator\DeviceProject\obj\Debug\DeviceProject.csproj.CoreCompileInputs.cache
+C:\Users\Helena\Desktop\Regulator\DeviceProject\obj\Debug\DeviceProject.csproj.CopyComplete
+C:\Users\Helena\Desktop\Regulator\DeviceProject\obj\Debug\DeviceProject.exe
+C:\Users\Helena\Desktop\Regulator\DeviceProject\obj\Debug\DeviceProject.pdb
+C:\Users\10\Downloads\Regulator\Regulator\DeviceProject\bin\Debug\DeviceProject.exe.config
+C:\Users\10\Downloads\Regulator\Regulator\DeviceProject\bin\Debug\DeviceProject.exe
+C:\Users\10\Downloads\Regulator\Regulator\DeviceProject\bin\Debug\DeviceProject.pdb
+C:\Users\10\Downloads\Regulator\Regulator\DeviceProject\bin\Debug\Common1.dll
+C:\Users\10\Downloads\Regulator\Regulator\DeviceProject\bin\Debug\Common1.pdb
+C:\Users\10\Downloads\Regulator\Regulator\DeviceProject\obj\Debug\DeviceProject.csproj.AssemblyReference.cache
+C:\Users\10\Downloads\Regulator\Regulator\DeviceProject\obj\Debug\DeviceProject.csproj.CoreCompileInputs.cache
+C:\Users\10\Downloads\Regulator\Regulator\DeviceProject\obj\Debug\DeviceProject.csproj.CopyComplete
+C:\Users\10\Downloads\Regulator\Regulator\DeviceProject\obj\Debug\DeviceProject.exe
+C:\Users\10\Downloads\Regulator\Regulator\DeviceProject\obj\Debug\DeviceProject.pdb

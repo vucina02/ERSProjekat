@@ -8,3 +8,28 @@ C:\Users\10\Desktop\PROJEKAT RESENJE\Regulator\Regulator\obj\Debug\Regulator.csp
 C:\Users\10\Desktop\PROJEKAT RESENJE\Regulator\Regulator\obj\Debug\Regulator.csproj.CopyComplete
 C:\Users\10\Desktop\PROJEKAT RESENJE\Regulator\Regulator\obj\Debug\Regulator.exe
 C:\Users\10\Desktop\PROJEKAT RESENJE\Regulator\Regulator\obj\Debug\Regulator.pdb
+C:\Users\10\Desktop\Proj\ERSProjekat\Regulator\Regulator\obj\Debug\Regulator.csproj.AssemblyReference.cache
+C:\Users\10\Desktop\Proj\ERSProjekat\Regulator\Regulator\obj\Debug\Regulator.csproj.CoreCompileInputs.cache
+C:\Users\10\Desktop\Proj\ERSProjekat\Regulator\Regulator\obj\Debug\Regulator.exe
+C:\Users\10\Desktop\Proj\ERSProjekat\Regulator\Regulator\obj\Debug\Regulator.pdb
+C:\Users\Helena\Desktop\Regulator\Regulator\bin\Debug\Regulator.exe.config
+C:\Users\Helena\Desktop\Regulator\Regulator\bin\Debug\Regulator.exe
+C:\Users\Helena\Desktop\Regulator\Regulator\bin\Debug\Regulator.pdb
+C:\Users\Helena\Desktop\Regulator\Regulator\bin\Debug\Common1.dll
+C:\Users\Helena\Desktop\Regulator\Regulator\bin\Debug\Common1.pdb
+C:\Users\Helena\Desktop\Regulator\Regulator\obj\Debug\Regulator.csproj.AssemblyReference.cache
+C:\Users\Helena\Desktop\Regulator\Regulator\obj\Debug\Regulator.csproj.SuggestedBindingRedirects.cache
+C:\Users\Helena\Desktop\Regulator\Regulator\obj\Debug\Regulator.csproj.CoreCompileInputs.cache
+C:\Users\Helena\Desktop\Regulator\Regulator\obj\Debug\Regulator.csproj.CopyComplete
+C:\Users\Helena\Desktop\Regulator\Regulator\obj\Debug\Regulator.exe
+C:\Users\Helena\Desktop\Regulator\Regulator\obj\Debug\Regulator.pdb
+C:\Users\10\Downloads\Regulator\Regulator\Regulator\bin\Debug\Regulator.exe.config
+C:\Users\10\Downloads\Regulator\Regulator\Regulator\bin\Debug\Regulator.exe
+C:\Users\10\Downloads\Regulator\Regulator\Regulator\bin\Debug\Regulator.pdb
+C:\Users\10\Downloads\Regulator\Regulator\Regulator\bin\Debug\Common1.dll
+C:\Users\10\Downloads\Regulator\Regulator\Regulator\bin\Debug\Common1.pdb
+C:\Users\10\Downloads\Regulator\Regulator\Regulator\obj\Debug\Regulator.csproj.AssemblyReference.cache
+C:\Users\10\Downloads\Regulator\Regulator\Regulator\obj\Debug\Regulator.csproj.CoreCompileInputs.cache
+C:\Users\10\Downloads\Regulator\Regulator\Regulator\obj\Debug\Regulator.csproj.CopyComplete
+C:\Users\10\Downloads\Regulator\Regulator\Regulator\obj\Debug\Regulator.exe
+C:\Users\10\Downloads\Regulator\Regulator\Regulator\obj\Debug\Regulator.pdb

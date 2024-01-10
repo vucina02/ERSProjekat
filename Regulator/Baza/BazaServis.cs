@@ -1,18 +1,30 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Common1;
+﻿using Common1;
 using Common1.Model;
+using System;
 
 namespace Baza
 {
     public class BazaServis : IBazaRegulator
     {
-        void IBazaRegulator.posalji(DeviceClass d)
+        public BazaImpl baza = BazaImpl.GetBaza();
+
+        public float GetProsjek()
+        {
+            return baza.ProsjekTemperaturaDeviceBaza();
+        }
+
+        public void posalji(DeviceClass d)
         {
             Console.WriteLine(d);
         }
+
+
+
+        public void UpisiHeater(HeaterClass heater)
+        {
+            baza.InsertHeater(heater);
+        }
+
+
     }
 }

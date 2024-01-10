@@ -5,3 +5,11 @@ C:\Users\10\Desktop\PROJEKAT RESENJE\Regulator\DeviceTest\obj\Debug\DeviceTest.c
 C:\Users\10\Desktop\PROJEKAT RESENJE\Regulator\DeviceTest\obj\Debug\DeviceTest.csproj.CoreCompileInputs.cache
 C:\Users\10\Desktop\PROJEKAT RESENJE\Regulator\DeviceTest\obj\Debug\DeviceTest.exe
 C:\Users\10\Desktop\PROJEKAT RESENJE\Regulator\DeviceTest\obj\Debug\DeviceTest.pdb
+C:\Users\Helena\Desktop\Regulator\DeviceTest\bin\Debug\DeviceTest.exe.config
+C:\Users\Helena\Desktop\Regulator\DeviceTest\bin\Debug\DeviceTest.exe
+C:\Users\Helena\Desktop\Regulator\DeviceTest\bin\Debug\DeviceTest.pdb
+C:\Users\Helena\Desktop\Regulator\DeviceTest\obj\Debug\DeviceTest.csproj.AssemblyReference.cache
+C:\Users\Helena\Desktop\Regulator\DeviceTest\obj\Debug\DeviceTest.csproj.SuggestedBindingRedirects.cache
+C:\Users\Helena\Desktop\Regulator\DeviceTest\obj\Debug\DeviceTest.csproj.CoreCompileInputs.cache
+C:\Users\Helena\Desktop\Regulator\DeviceTest\obj\Debug\DeviceTest.exe
+C:\Users\Helena\Desktop\Regulator\DeviceTest\obj\Debug\DeviceTest.pdb

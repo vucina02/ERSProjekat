@@ -8,3 +8,14 @@ C:\Users\10\Desktop\PROJEKAT RESENJE\Regulator\Baza\bin\Debug\Common1.pdb
 C:\Users\10\Desktop\PROJEKAT RESENJE\Regulator\Baza\obj\Debug\Baza.csproj.CopyComplete
 C:\Users\10\Desktop\PROJEKAT RESENJE\Regulator\Baza\obj\Debug\Baza.exe
 C:\Users\10\Desktop\PROJEKAT RESENJE\Regulator\Baza\obj\Debug\Baza.pdb
+C:\Users\Helena\Desktop\Regulator\Baza\bin\Debug\Baza.exe.config
+C:\Users\Helena\Desktop\Regulator\Baza\bin\Debug\Baza.exe
+C:\Users\Helena\Desktop\Regulator\Baza\bin\Debug\Baza.pdb
+C:\Users\Helena\Desktop\Regulator\Baza\bin\Debug\Common1.dll
+C:\Users\Helena\Desktop\Regulator\Baza\bin\Debug\Common1.pdb
+C:\Users\Helena\Desktop\Regulator\Baza\obj\Debug\Baza.csproj.AssemblyReference.cache
+C:\Users\Helena\Desktop\Regulator\Baza\obj\Debug\Baza.csproj.SuggestedBindingRedirects.cache
+C:\Users\Helena\Desktop\Regulator\Baza\obj\Debug\Baza.csproj.CoreCompileInputs.cache
+C:\Users\Helena\Desktop\Regulator\Baza\obj\Debug\Baza.csproj.CopyComplete
+C:\Users\Helena\Desktop\Regulator\Baza\obj\Debug\Baza.exe
+C:\Users\Helena\Desktop\Regulator\Baza\obj\Debug\Baza.pdb

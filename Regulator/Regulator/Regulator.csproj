@@ -44,11 +44,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="HeaterImpl.cs" />
+    <Compile Include="IHeater.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegulatorImpl.cs" />
     <Compile Include="RegulatorServis.cs" />
     <Compile Include="RegulatorServis1.cs" />
-    <Compile Include="Temperatura.cs" />
+    <Compile Include="RegulatorUI.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

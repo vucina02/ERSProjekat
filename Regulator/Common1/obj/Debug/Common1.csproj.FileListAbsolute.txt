@@ -4,3 +4,9 @@ C:\Users\10\Desktop\PROJEKAT RESENJE\Regulator\Common1\bin\Debug\Common1.dll
 C:\Users\10\Desktop\PROJEKAT RESENJE\Regulator\Common1\bin\Debug\Common1.pdb
 C:\Users\10\Desktop\PROJEKAT RESENJE\Regulator\Common1\obj\Debug\Common1.dll
 C:\Users\10\Desktop\PROJEKAT RESENJE\Regulator\Common1\obj\Debug\Common1.pdb
+C:\Users\Helena\Desktop\Regulator\Common1\bin\Debug\Common1.dll
+C:\Users\Helena\Desktop\Regulator\Common1\bin\Debug\Common1.pdb
+C:\Users\Helena\Desktop\Regulator\Common1\obj\Debug\Common1.csproj.AssemblyReference.cache
+C:\Users\Helena\Desktop\Regulator\Common1\obj\Debug\Common1.csproj.CoreCompileInputs.cache
+C:\Users\Helena\Desktop\Regulator\Common1\obj\Debug\Common1.dll
+C:\Users\Helena\Desktop\Regulator\Common1\obj\Debug\Common1.pdb
