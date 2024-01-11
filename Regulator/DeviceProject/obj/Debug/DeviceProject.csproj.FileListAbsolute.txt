@@ -29,3 +29,13 @@ C:\Users\10\Downloads\Regulator\Regulator\DeviceProject\obj\Debug\DeviceProject.
 C:\Users\10\Downloads\Regulator\Regulator\DeviceProject\obj\Debug\DeviceProject.csproj.CopyComplete
 C:\Users\10\Downloads\Regulator\Regulator\DeviceProject\obj\Debug\DeviceProject.exe
 C:\Users\10\Downloads\Regulator\Regulator\DeviceProject\obj\Debug\DeviceProject.pdb
+C:\Users\10\Desktop\Proj1\ERSProjekat\Regulator\DeviceProject\bin\Debug\DeviceProject.exe.config
+C:\Users\10\Desktop\Proj1\ERSProjekat\Regulator\DeviceProject\bin\Debug\DeviceProject.exe
+C:\Users\10\Desktop\Proj1\ERSProjekat\Regulator\DeviceProject\bin\Debug\DeviceProject.pdb
+C:\Users\10\Desktop\Proj1\ERSProjekat\Regulator\DeviceProject\bin\Debug\Common1.dll
+C:\Users\10\Desktop\Proj1\ERSProjekat\Regulator\DeviceProject\bin\Debug\Common1.pdb
+C:\Users\10\Desktop\Proj1\ERSProjekat\Regulator\DeviceProject\obj\Debug\DeviceProject.csproj.AssemblyReference.cache
+C:\Users\10\Desktop\Proj1\ERSProjekat\Regulator\DeviceProject\obj\Debug\DeviceProject.csproj.CoreCompileInputs.cache
+C:\Users\10\Desktop\Proj1\ERSProjekat\Regulator\DeviceProject\obj\Debug\DeviceProject.csproj.CopyComplete
+C:\Users\10\Desktop\Proj1\ERSProjekat\Regulator\DeviceProject\obj\Debug\DeviceProject.exe
+C:\Users\10\Desktop\Proj1\ERSProjekat\Regulator\DeviceProject\obj\Debug\DeviceProject.pdb

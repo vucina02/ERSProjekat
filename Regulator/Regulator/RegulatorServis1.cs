@@ -24,10 +24,7 @@ namespace Regulator
 
         }
 
-         public void Hello()
-        {
-            Console.WriteLine("Hello");
-        }
+        
         public void Ispisi()
         {
             foreach (var item in Temp)

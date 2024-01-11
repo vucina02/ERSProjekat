@@ -51,7 +51,6 @@
     <Compile Include="RegulatorImpl.cs" />
     <Compile Include="RegulatorServis.cs" />
     <Compile Include="RegulatorServis1.cs" />
-    <Compile Include="RegulatorUI.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -18,7 +18,7 @@ namespace Common1.Model
         [DataMember]
         public float Temperatura_merenja { get; set; }
 
-        public DeviceClass() { }
+        public DeviceClass(int v, string v1) { }
 
         public DeviceClass(int idd, DateTime vreme, float temperatura)
         {

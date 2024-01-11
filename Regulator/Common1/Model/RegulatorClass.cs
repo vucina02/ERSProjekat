@@ -24,8 +24,9 @@ namespace Common1.Model
 
         public RegulatorClass() { }
 
-        public RegulatorClass(DateTime pdnevni, DateTime pnocni, DateTime kdnevni, DateTime knocni, float dtemp, float ntemp)
+        public RegulatorClass(int id,DateTime pdnevni, DateTime pnocni, DateTime kdnevni, DateTime knocni, float dtemp, float ntemp)
         {
+            this.TempId = id;
             this.Pocetak_dnevnog = pdnevni;
             this.Pocetak_nocnog = pnocni;
             this.Kraj_dnevnog = kdnevni;

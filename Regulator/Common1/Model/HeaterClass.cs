@@ -16,8 +16,7 @@ namespace Common1.Model
         public TimeSpan Trajanje { get; set; }
         [DataMember]
         public double PotroseniResursi { get; set; }
-
-
+        
 
         public HeaterClass() { }
 
@@ -27,5 +26,7 @@ namespace Common1.Model
             Trajanje = trajanje;
             PotroseniResursi = potroseniResursi;
         }
+
+        
     }
 }

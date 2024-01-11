@@ -33,3 +33,13 @@ C:\Users\10\Downloads\Regulator\Regulator\Regulator\obj\Debug\Regulator.csproj.C
 C:\Users\10\Downloads\Regulator\Regulator\Regulator\obj\Debug\Regulator.csproj.CopyComplete
 C:\Users\10\Downloads\Regulator\Regulator\Regulator\obj\Debug\Regulator.exe
 C:\Users\10\Downloads\Regulator\Regulator\Regulator\obj\Debug\Regulator.pdb
+C:\Users\10\Desktop\Proj1\ERSProjekat\Regulator\Regulator\bin\Debug\Regulator.exe.config
+C:\Users\10\Desktop\Proj1\ERSProjekat\Regulator\Regulator\bin\Debug\Regulator.exe
+C:\Users\10\Desktop\Proj1\ERSProjekat\Regulator\Regulator\bin\Debug\Regulator.pdb
+C:\Users\10\Desktop\Proj1\ERSProjekat\Regulator\Regulator\bin\Debug\Common1.dll
+C:\Users\10\Desktop\Proj1\ERSProjekat\Regulator\Regulator\bin\Debug\Common1.pdb
+C:\Users\10\Desktop\Proj1\ERSProjekat\Regulator\Regulator\obj\Debug\Regulator.csproj.AssemblyReference.cache
+C:\Users\10\Desktop\Proj1\ERSProjekat\Regulator\Regulator\obj\Debug\Regulator.csproj.CoreCompileInputs.cache
+C:\Users\10\Desktop\Proj1\ERSProjekat\Regulator\Regulator\obj\Debug\Regulator.csproj.CopyComplete
+C:\Users\10\Desktop\Proj1\ERSProjekat\Regulator\Regulator\obj\Debug\Regulator.exe
+C:\Users\10\Desktop\Proj1\ERSProjekat\Regulator\Regulator\obj\Debug\Regulator.pdb

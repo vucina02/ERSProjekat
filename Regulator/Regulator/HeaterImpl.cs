@@ -38,7 +38,7 @@ namespace Regulator
                 writer.Write(TemperaturaHeatera);
             }
 
-            //Console.WriteLine($"Float value {TemperaturaHeatera} has been written to the file {filePath}");
+          
         }
 
 
@@ -46,14 +46,10 @@ namespace Regulator
         {
             HeaterRadi = false;
 
-            if (!HeaterRadi)
-            {
-                Console.WriteLine("Heater nije upaljen!");
-            }
-            else
-            {
-                KrajRada = DateTime.Now;
-            }
+           
+            
+            KrajRada = DateTime.Now;
+            
             Funkcija();
         }
 
@@ -61,6 +57,7 @@ namespace Regulator
         public HeaterImpl()
         {
             HeaterRadi = false;
+            TemperaturaHeatera = 0;
         }
 
         public HeaterImpl(float temperatura,RegulatorImpl regulator)

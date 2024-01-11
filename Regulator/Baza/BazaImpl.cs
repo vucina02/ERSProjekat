@@ -61,7 +61,7 @@ namespace Baza
             }
 
         }
-        public void DeleteDevice(int id)
+        /*public void DeleteDevice(int id)
         {
 
             using (SqlCommand command = new SqlCommand())
@@ -89,18 +89,11 @@ namespace Baza
 
                 command.ExecuteNonQuery();
             }
-        }
+        }*/
 
        
 
-        public float GenerisanjeTemperature()
-        {
-            Random rand = new Random();
-            int minTemp = 1;
-            int maxTemp = 35;
-            float randomTemp = rand.Next(minTemp, maxTemp);
-            return randomTemp;
-        }
+        
 
 
         public void InsertDevice(DeviceClass d)
@@ -131,6 +124,82 @@ namespace Baza
 
         }
 
+        public void DeleteAllDevice() {
+            using (SqlCommand command = new SqlCommand())
+            {
+
+                command.Connection = connection;
+                command.CommandText = "Delete from Device";
+
+
+                
+
+
+                int result = command.ExecuteNonQuery();
+
+                if (result != 0)
+                {
+                    Console.WriteLine("Uspesno izbrisano iz baze");
+                }
+                else
+                {
+                    Console.WriteLine("Nismo uspeli da izbrisemo");
+                }
+            }
+
+        }
+
+        public void DeleteAllRegulator()
+        {
+            using (SqlCommand command = new SqlCommand())
+            {
+
+                command.Connection = connection;
+                command.CommandText = "Delete from Regulator";
+
+
+
+
+
+                int result = command.ExecuteNonQuery();
+
+                if (result != 0)
+                {
+                    Console.WriteLine("Uspesno izbrisano iz baze");
+                }
+                else
+                {
+                    Console.WriteLine("Nismo uspeli da izbrisemo");
+                }
+            }
+
+        }
+
+        public void DeleteAllHeater()
+        {
+            using (SqlCommand command = new SqlCommand())
+            {
+
+                command.Connection = connection;
+                command.CommandText = "Delete from Heater";
+
+
+
+
+
+                int result = command.ExecuteNonQuery();
+
+                if (result != 0)
+                {
+                    Console.WriteLine("Uspesno izbrisano iz baze");
+                }
+                else
+                {
+                    Console.WriteLine("Nismo uspeli da izbrisemo");
+                }
+            }
+
+        }
         public List<DeviceClass> GetDevices()
         {
             List<DeviceClass> devices = new List<DeviceClass>();
@@ -139,13 +208,16 @@ namespace Baza
             {
 
                 command.Connection = connection;
-                command.CommandText = "select DeviceId,TemperaturaMerenja,VremeMerenja from Device";
+                command.CommandText = "select DeviceId,VremeMerEnja,TemperaturaMerenja from Device";
 
                 using (SqlDataReader reader = command.ExecuteReader())
                 {
                     while (reader.Read())
                     {
-                        DeviceClass d = new DeviceClass(reader.GetInt32(0), reader.GetDateTime(1), reader.GetFloat(2));
+                        int id = reader.GetInt32(0);
+                        DateTime dt = reader.GetDateTime(1);
+                        float temp=(float)reader.GetDouble(2);
+                        DeviceClass d = new DeviceClass(id,dt,temp);
                         devices.Add(d);
                     }
                 }
@@ -160,6 +232,36 @@ namespace Baza
 
 
 
+        public List<RegulatorClass> GetRegulator()
+        {
+            List<RegulatorClass> regulatori = new List<RegulatorClass>();
+
+            using (SqlCommand command = new SqlCommand())
+            {
+
+                command.Connection = connection;
+                command.CommandText = "select IdT,PocetakDnevnog,KrajDnevnog,PocetakNocnog,KrajNocnog,DnevnaTemperatura,NocnaTemperatura from Regulator";
+
+                using (SqlDataReader reader = command.ExecuteReader())
+                {
+                    while (reader.Read())
+                    {
+                        RegulatorClass r = new RegulatorClass(reader.GetInt32(0), reader.GetDateTime(1), reader.GetDateTime(2), reader.GetDateTime(3)
+                            , reader.GetDateTime(4),(float)reader.GetDouble(5), (float)reader.GetDouble(6));
+                        regulatori.Add(r);
+                    }
+                }
+
+
+
+
+            }
+
+            return regulatori;
+        }
+
+
+
         public void InsertRegulator(RegulatorClass r)
         {
             using (SqlCommand command = new SqlCommand())
@@ -168,7 +270,7 @@ namespace Baza
                 command.Connection = connection;
                 command.CommandText = "INSERT INTO Regulator (IdT,PocetakDnevnog,KrajDnevnog,PocetakNocnog,KrajNocnog" +
                     " ,DnevnaTemperatura,NocnaTemperatura) VALUES (@IdT,@PocetakDnevnog,@KrajDnevnog,@PocetakNocnog,@KrajNocnog" +
-                    " @DnevnaTemperatura,@NocnaTemperatura)";
+                    ", @DnevnaTemperatura,@NocnaTemperatura)";
 
                 command.Parameters.AddWithValue("@IdT", r.TempId);
                 command.Parameters.AddWithValue("@PocetakDnevnog", r.Pocetak_dnevnog);
@@ -223,18 +325,60 @@ namespace Baza
 
         }
 
+
+        public List<HeaterClass> GetHeater()
+        {
+            List<HeaterClass> heaters = new List<HeaterClass>();
+
+            using (SqlCommand command = new SqlCommand())
+            {
+
+                command.Connection = connection;
+                command.CommandText = "select PocetakRada,VremeRada,Resursi from Heater";
+
+                using (SqlDataReader reader = command.ExecuteReader())
+                {
+                    while (reader.Read())
+                    {
+                       HeaterClass h = new HeaterClass();
+                        heaters.Add(h);
+                    }
+                }
+
+
+
+
+            }
+
+            return heaters;
+        }
+
         public float ProsjekTemperaturaDeviceBaza() {
             float prosjek = 0;
             using (SqlCommand command = new SqlCommand())
             {
+                command.Connection = connection;
                 command.CommandText = "SELECT AVG(TemperaturaMerenja) FROM Device";
                 using (SqlDataReader reader = command.ExecuteReader()) {
-                    while (reader.Read()) { 
-                        prosjek = reader.GetFloat(0);
+                    while (reader.Read())
+                    {
+                        prosjek = (float)reader.GetDouble(0);
+
                     }
+                    
                 }
             }
             return prosjek;
         }
+        /*public float ProsjekTemperaturaDeviceBaza()
+        {
+            float prosjek = 0;
+            using (SqlCommand command = new SqlCommand())
+            {
+                command.CommandText = "SELECT AVG(TemperaturaMerenja) FROM Device";
+                prosjek = (float)command.ExecuteScalar();
+            }
+            return prosjek;
+        }*/
     }
 }
